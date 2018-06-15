@@ -12,6 +12,10 @@ html, body, .capa {
     height: 100%;
 }
 
+
+
+
+
 P {
     text-align: justify;
 }
@@ -301,11 +305,9 @@ H1 {
     h1 {
 	    font-size: 70px; 
       }
-      
-      .capa {
-          opacity: "1.0";
-      }
 
+
+   
 }
 
 /* md */
@@ -324,4 +326,19 @@ H1 {
       .nav-footer-items {
         max-width: none;
       }
+
+    
+    
+}
+
+@media screen and (max-width: 400px) {
+    .capa {
+        opacity: 1.0;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    .capa {
+        opacity: 0.0;
+    }
 }

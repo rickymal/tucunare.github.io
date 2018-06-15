@@ -169,9 +169,9 @@ $(document).ready( function(){
         capa.css("opacity","1.0");
     }
     else{
-        capa.animate({opacity: 1.0},1500);
     }
-
+    
+    capa.animate({opacity: 1.0},1500);
     
 
 
