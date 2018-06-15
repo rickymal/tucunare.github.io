@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>scroll demo</title>
+  <style>
+  div {
+    color: blue;
+  }
+  p {
+    color: green;
+  }
+  span {
+    color: red;
+    display: none;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> <!-- codigo em Vue.js-->
+</head>
+<body>
+ 
+<div id="idvue">{{message}}</div>
+<p>Paragraph - <span>Scroll happened!</span></p>
+
+<script>
+var i = 0;
+for(i = 0; i < 15; i++)
+{
+    $( "p" ).clone().appendTo( document.body );
+}
+
+idvue
+
+var app = new Vue({
+    el: '#idvue',
+    data: {
+      message: 'Hello Vue!'
+    }
+  })
+
+$( window ).scroll(function() {
+  $( "span" ).css( "display", "inline" ).fadeOut( "slow" );
+});
+</script>
+ 
+</body>
+</html>

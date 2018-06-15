@@ -1,0 +1,119 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Projeto Site Tucunaré</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+        <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente" >
+                <div class="container">
+                  <!-- header -->
+                  <div class="navbar-header">
+                    <!-- botao toggle -->
+                    <button type="button" class="navbar-toggle collapsed"
+                            data-toggle="collapse" data-target="#barra-navegacao">
+                      <span class="sr-only">alternar navegação</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">
+                      <span class="img-logo">Tucunaré</span>
+                    </a>  
+                  </div>
+                  <!-- navbar -->
+                  <div class="collapse navbar-collapse" id="barra-navegacao">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="PaginaPrincipal.html">Pagina principal</a></li>
+                      <li class="divisor" role="separator"></li>
+                      <li><a href="">mini-curso</a></li>
+
+                    </ul>
+                  </div>
+                </div><!-- /container -->
+              </nav><!-- /nav -->
+
+
+              <div class="container" id="id-formulario">
+   		
+                <div class="page-header">
+                    <h2>Mini-cursos (indisponíveis no momento)</h2>
+                </div>
+     
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h3>Tem interesse no curso de miriti e é de Engenharia naval?</h3>
+                        <form>
+     
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome">
+                            </div>
+     
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="nome">Matricula</label>
+                                <input type="text" class="form-control" id="nome">
+                            </div>
+     
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Aceito que vou pagar
+                                </label>
+                            </div>
+     
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="opcoes"> Curso de miriti
+                                </label>
+     
+                                <label>
+                                    <input type="radio" name="opcoes"> Curso do autoCAD
+                                </label>
+     
+                            </div>
+     
+                            <button type="submit" class="btn btn-default">Cadastrar</button>
+     
+                        </form>
+     
+                    </div>
+     
+                    <div class="col-sm-4">
+                        <h3>Está matriculado no curso?</h3>
+     
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="nome" placeholder="Digite sua matricula">
+                        </div>
+     
+                     
+     
+                        <button type="submit" class="btn btn-primary">verificar</button>
+                        
+                    </div>
+     
+                </div>
+     
+            </div> 
+     
+
+  
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>

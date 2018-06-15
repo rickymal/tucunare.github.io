@@ -1,0 +1,323 @@
+body {
+    padding: 15px 0px;
+    background: linear-gradient(15deg, #db9393, #685353);
+    background: url('pp2.jpg');
+    background: url('competicao.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html, body, .capa {
+    height: 100%;
+}
+
+P {
+    text-align: justify;
+}
+
+nav.navbar-transparente {
+    border: none;
+    background: rgba(0, 0, 0, 0.699);
+    padding: 2px 0px 3px 2px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    /*color: white;*/   
+    margin-left: 0.1px;
+    margin-right: 0.1px;
+}
+.capa {
+	display: table;
+    width: 100%;
+    height: -50px;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div#capa-ID {
+    margin: 0px 0px 0px 0px;
+}
+.teste {
+    background: black;
+}
+
+.btn {
+    margin: 10px 0px 0px 0px;
+}
+
+.btn-custom {
+	color: white;
+	/*border-radius: 500px;
+	-webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;*/
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+
+
+}
+
+.btn-roxo {
+	background: #14101a;
+}
+.btn-roxo:hover {
+	background-color: #e74118;
+    color: white;
+    
+}
+
+.container#id-formulario {
+    background: rgba(5, 4, 4, 0.5);
+    margin-top: 100pt;
+
+}
+
+.container#id-formulario h1,h2,h3,p,label {
+    color: white;
+}
+
+
+.btn-branco {
+    background: #14101a;
+}
+
+.btn-branco:hover {
+    background-color: #1848e7;
+    color: white;
+}
+
+.btn-outro {
+    background: #14101a;
+}
+
+.btn-outro:hover {
+    background-color: #23964f;
+    color: white;
+}
+
+.btn-outro2 {
+    background: #14101a;
+}
+
+.btn-outro2:hover {
+    background-color: #962373;
+    color: white;
+}
+
+.texto-capa h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bcd7e2;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.692);
+    padding: 50px 0px 20px 0px;
+    position: relative;
+    bottom: 0px;
+color: white;
+
+}
+
+.fot-TUC{
+    background: rgba(0, 0, 0, 0.61);
+    margin-top: 0pt; 
+}
+
+.sectionTheTeam {
+    background: #0100024f;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    transition: background 0.3s;
+
+	vertical-align: middle;
+}
+
+
+.sectionTheTeam h2 {
+    color: #ff6600;
+    font-size: 50pt;
+}
+
+.sectionTheGoal {
+    /*background: #16be5c6e;*/
+    text-align: center;
+    color: white;
+    transition: background 0.3s;
+	
+	vertical-align: middle; 
+}
+
+
+.sectionTheGoal h2 {
+    color: #ff6600;
+    font-size: 50pt;
+}
+
+.sectionTheEtc {
+    /*background: #16be5c6e;*/
+    text-align: center;
+    color: white;
+    transition: background 0.3s;
+	
+	vertical-align: middle; 
+}
+
+
+.sectionTheEtc h2 {
+    color: #e0d4cb;
+    font-size: 50pt;
+}
+
+#btn_scroll {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(160, 68, 68);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#btn_scroll:hover {
+    background-color: #555;
+  }
+
+
+
+
+
+.sectionOurHistory {
+    background: #0100024f;
+    text-align: center;
+    color: white;
+    transition: background 0.3s;
+
+	vertical-align: middle;
+}
+
+
+.sectionOurHistory h2 {
+    color: #ff6600;
+    font-size: 50pt;
+}
+
+.sectionOurHistory img {
+    padding: 10pt 5pt 10pt 5pt;
+    width: 258px;
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.nav-footer-items {
+    margin: auto;
+    list-style: none;
+    vertical-align: baseline;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav-footer-item {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: .87em;
+    text-transform: uppercase;
+    margin: .75em 0;
+    padding: 0 7px 0 8px;
+}
+
+
+
+
+
+/*Tipografia*/
+H1 {
+    /*background: rgb(153, 79, 79); retirar depois*/
+    height: 150pt;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: -0.05em;
+    color: black; 
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+	h1 {
+	    font-size: 50px; 
+  	}
+  	.btn-custom {
+        margin: 10px 15px;
+        margin: 10px -5px;
+    }
+
+    .btn-info {
+        background: #bcd7e2;
+        border-color: #23964f;
+    }
+    
+    h2#responsive-title-body {
+        font-size : 45px;
+    }
+
+    .sectionOurHistory img {
+        padding: 10pt 5pt 10pt 5pt;
+        width: 0px;
+        height: 0px;
+        object-fit: cover;
+        object-position: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        display: table-cell;
+    }
+
+    .sectionOurHistory .row {
+
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    h1 {
+	    font-size: 70px; 
+  	}
+
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    h1 {
+	    font-size: 80px; 
+  	}
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    h1 {
+	    font-size: 100px; 
+      }
+    
+      .nav-footer-items {
+        max-width: none;
+      }
+}
