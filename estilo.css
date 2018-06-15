@@ -300,7 +300,11 @@ H1 {
 @media screen and (min-width: 768px) {
     h1 {
 	    font-size: 70px; 
-  	}
+      }
+      
+      .capa {
+          opacity: "1.0";
+      }
 
 }
 

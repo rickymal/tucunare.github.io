@@ -160,20 +160,26 @@ $(document).ready( function(){
 
 
 
+      var capa = $(".capa");
+
+      var tela = $("body").width();
+    if(tela < 500){
+        //ajustar as fotos não precisa mais
+        //alert('a tela é maio que 1000');
+        capa.css("opacity","1.0");
+    }
+    else{
+        capa.animate({opacity: 1.0},1500);
+    }
+
     
 
 
+
+
+
     
-
-
-
-
-    var capa = $(".capa");
-    //capa.style.opacity = 0;
-    //capa.css("opacity","0.0");
     
-
-    capa.animate({opacity: 1.0},1500);
 
     var infoEquipe = document.getElementById('info-equipe');
     infoEquipe.innerHTML = "Henrique Mauler Borges";
